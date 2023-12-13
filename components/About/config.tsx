@@ -5,6 +5,12 @@ import {
   SiStorybook,
   SiTailwindcss,
   SiTypescript,
+  SiThreedotjs,
+  SiWebgl ,
+  SiGreensock ,
+  SiNextdotjs ,
+  SiSvelte
+
 } from "react-icons/si";
 
 const tech = [
@@ -24,14 +30,28 @@ const tech = [
     name: "Tailwind CSS",
     icon: <SiTailwindcss />,
   },
+ 
   {
-    name: "Firebase",
-    icon: <SiFirebase />,
+    name:'Three.js',
+    icon: <SiThreedotjs />
   },
   {
-    name: "Storybook",
-    icon: <SiStorybook />,
+    name:'WebGL',
+    icon: <SiWebgl />
+
   },
+  {
+    name: 'GSAP',
+    icon: <SiGreensock  />
+  },
+  {
+    name: 'Next.js',
+    icon: <SiNextdotjs />
+  }
+  ,{
+    name: 'Svelte',
+    icon: <SiSvelte />
+  }
 ];
 
 export { tech };

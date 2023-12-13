@@ -32,12 +32,12 @@ export default function About() {
 
         <div className="flex flex-col space-y-4 leading-relaxed md:flex-row md:space-x-12 md:space-y-0">
           <p className="w-full whitespace-pre-line md:w-1/2">
-            {`I am a frontend-focused software engineer with  6+ years of professional development experience, holding a degree of BS Computer Science from the University of the Philippines.
+            {`I am a frontend-focused software engineer holding a degree of BS Computer Science from Instituto Tecnico La Piedad of Argentina.
             \nI have been employed by leading tech companies and emerging amazing startup companies throughout my career thus far.`}
           </p>
 
           <div className="w-full md:w-1/2">
-            Currently, I am a Senior Software Engineer,{" "}
+            Currently, I am a Senior Software Engineer, 
             <span className="font-bold">focusing on the frontend</span>. On a
             daily basis, I work with <MobileTechList />
             <TechList /> among others, in building and maintaining web

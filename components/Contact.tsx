@@ -1,4 +1,4 @@
-import { SiLinkedin } from "react-icons/si";
+import { SiLinkedin, SiUpwork  } from "react-icons/si";
 import { Badge } from "./Badge";
 import { Clipboard } from "./Clipboard";
 import { contact } from "./Float/config";
@@ -28,22 +28,22 @@ export default function Contact() {
           </p>
         </div>
 
-        <Clipboard text="marie.bawanan@gmail.com">
+        <Clipboard text="luciohernandeznew1@gmail.com">
           <Heading dark size="xs">
-            marie.bawanan@gmail.com
+          luciohernandeznew1@gmail.com
           </Heading>
         </Clipboard>
 
-        <div>
+        {/* <div>
           Alternatively, you can also send me a message on
           <Badge
-            icon={<SiLinkedin />}
-            onClick={() => openInNewTab("https://linkedin.com/in/maribwnn")}
+            icon={<SiUpwork />}
+            onClick={() => openInNewTab("https://www.upwork.com/freelancers/~01fcf17768fb11decd")}
             className="ml-1"
           >
-            Linkedin
+            Upwork
           </Badge>
-        </div>
+        </div> */}
 
         <p className="whitespace-pre-line text-sm font-bold">
           {`This site is still in the works, check back often. `}
